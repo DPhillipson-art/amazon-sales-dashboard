@@ -159,8 +159,8 @@ fig2 = px.scatter(
     color="main_category",
     hover_data=["discount_percentage", "rating"],
     labels={
-        "actual_price": "Actual Retail Price (₹)",
-        "discounted_price": "Discounted Price (₹)",
+        "actual_price": "Actual Retail Price",
+        "discounted_price": "Discounted Price",
     },
     title="Actual Price vs. Discounted Price Relationship",
 )
