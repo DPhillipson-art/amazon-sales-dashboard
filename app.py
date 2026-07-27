@@ -192,8 +192,6 @@ st.plotly_chart(fig3, use_container_width=True)
 
 st.info(
     "**Written Takeaway:** Discount percentages remain evenly distributed across"
-    " product rating tiers, typically averaging between 40% and 60%. This"
-    " reveals that heavy discounting does not harm customer satisfaction"
-    " ratings, nor are high ratings restricted strictly to full-price premium"
-    " goods."
-)
+    " product rating tiers, typically averaging between 40% and 60%."
+    "Heavy discounts do not boost customer satisfaction, "
+    "and low ratings are not confined to full-priced items.")
